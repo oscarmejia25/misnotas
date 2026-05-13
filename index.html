@@ -98,7 +98,7 @@
 
                 const section = document.createElement('div');
                 section.className = 'section';
-                section.innerHTML = `<div class="section-title">${icons[type]} ${type}s</div>`;
+                section.innerHTML = `<div class="section-title">${icons[type]} ${type}</div>`;
 
                 const grouped = {};
                 typeTools.forEach(t => { if (!grouped[t.category]) grouped[t.category] = []; grouped[t.category].push(t); });
